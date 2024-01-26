@@ -1,4 +1,10 @@
 h1,
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(78, 86, 104, 1.00);
+    background-color: rgba(217, 222, 232, 1.00);
+}
+
+h1 {
+    text-align: center;
 }
