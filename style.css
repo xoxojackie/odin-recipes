@@ -9,7 +9,8 @@ h2 {
     background-color: rgba(217, 222, 232, 1.00);
     border: 2px solid rgba(78, 86, 104, 1.00);
     padding: 5px;
-    margin: 15px;
+    width: 50%;
+    margin: 15px auto;
 }
 
 h1 {
@@ -20,6 +21,25 @@ li {
     font-size: 18px;
 }
 
+.ingredients {
+    padding: 5px;
+    width: 50%;
+    margin: 20px auto;
+}
+
 .desc {
+    padding: 5px;
     font-size: 20px;
+    text-align: center;
+}
+
+.image {
+    padding: 5px;
+    text-align: center;
+}
+
+.recipe {
+    padding: 5px;
+    width: 75%;
+    margin: 20px auto;
 }
