@@ -1,5 +1,14 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(217, 222, 232, 1.00);
+}
+
+a {
+    color: rgba(101, 128, 168, 1.00);
+}
+
+a:visited {
+    color: rgba(174, 143, 171, 1.00);
 }
 
 h1,
@@ -19,6 +28,13 @@ h1 {
 
 li {
     font-size: 18px;
+}
+
+.content {
+    background-color: rgba(79, 85, 102, 1.00);
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px 15px;
 }
 
 .ingredients {
@@ -44,4 +60,16 @@ li {
     padding: 5px;
     width: 75%;
     margin: 20px auto;
+}
+
+.recipe-list {
+    background-color: rgba(217, 222, 232, 1.00);
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.list-of-recipes>li {
+    display: inline;
+    padding: 20px;
 }
